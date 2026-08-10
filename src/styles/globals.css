@@ -1,4 +1,7 @@
 @import "tailwindcss";
+@plugin "daisyui" {
+  themes: light --default;
+}
 
 :root {
   --background: #ffffff;
@@ -23,4 +26,12 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #252641;
+}
+
+.btn-ghost-totc {
+  @apply btn shadow-none border border-white/30 bg-white/30 text-white rounded-full w-[140px] h-[40px];
 }
