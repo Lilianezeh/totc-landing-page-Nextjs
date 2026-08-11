@@ -1,3 +1,4 @@
+// component/video-call-mockup.tsx
 import React from "react";
 import Image from "next/image";
 import { FaPhone } from "react-icons/fa";
@@ -25,7 +26,7 @@ const VideoCallMockup = () => {
           </div>
         </div>
 
-        {/* Tamara + Humbert small photos */}
+        {/* Tamara + Humbert small cluster */}
         <div className="flex flex-col gap-1.5 md:gap-2 w-12 sm:w-14 md:w-16 h-20 sm:h-24 md:h-28 mt-5 md:mt-6 shrink-0">
           <div className="relative flex-1 rounded-lg overflow-hidden">
             <Image src="/images/avatar2.png" alt="Tamara Clarke" fill className="object-cover" />
@@ -41,8 +42,8 @@ const VideoCallMockup = () => {
           </div>
         </div>
 
-        {/* Adam + Patricia photos */}
-        <div className="flex flex-col gap-1.5 md:gap-2 w-20 sm:w-24 md:w-28 h-40 sm:h-52 md:h-64 mt-5 md:mt-6 shrink-0">
+        {/* Adam + Patricia — names already baked into these photos, no overlay label needed */}
+        <div className="flex flex-col gap-2 md:gap-3 w-20 sm:w-24 md:w-28 h-28 sm:h-36 md:h-44 mt-5 md:mt-6 shrink-0">
           <div className="relative flex-1 rounded-lg overflow-hidden">
             <Image
               src="/images/avatar3.png"

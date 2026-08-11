@@ -17,7 +17,7 @@ const SplitRow = ({ image, imageAlt, visual, reverse = false, children }: SplitR
       }`}
     >
       <div>{children}</div>
-      <div className="flex items-center justify-center overflow-x-auto">
+      <div className="flex items-center justify-center">
         {visual
           ? visual
           : image && (

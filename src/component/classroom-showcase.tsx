@@ -6,11 +6,13 @@ const ClassroomShowcase = () => {
   return (
     <section className="grid md:grid-cols-2 gap-10 items-center px-6 md:px-32 py-20 relative">
       <div>
-        <span className="inline-block bg-[#2FC79E] rounded-full size-3 mb-4" />
-        <h2 className="text-1xl font-bold mb-4 text-[#252641]">
-          Everything you can do in a physical classroom,{" "}
-          <span className="text-[#49BBBD]">you can do with TOTC</span>
-        </h2>
+  <div className="flex items-center gap-3 mb-0">
+    <span className="inline-block bg-[#2FC79E] rounded-full size-8 shrink-0" />
+  </div>
+  <h2 className="text-2xl font-bold mb-4 text-[#252641]">
+    Everything you can do in a physical classroom,{" "}
+    <span className="text-[#49BBBD]">you can do with TOTC</span>
+  </h2>
         <p className="text-sm text-gray-500 mb-4">
           TOTC&apos;s school management software helps traditional and online
           schools manage scheduling, attendance, payments and virtual
