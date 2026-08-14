@@ -1,10 +1,9 @@
-// component/quiz-mockup.tsx
 import React from "react";
 import Image from "next/image";
 
 const QuizMockup = () => {
   return (
-    <div className="relative w-full max-w-sm h-80">
+    <div className="relative w-full max-w-md h-96 -translate-x-2 md:-translate-x-14 translate-y-4 md:translate-y-8">
       <Image
         src="/images/true-or-false.png"
         alt="Quiz question: True or false, this play takes place in Italy"

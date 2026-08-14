@@ -38,7 +38,7 @@ const OurFeatures = () => {
 
       <SplitRow
         visual={
-          <div className="relative inline-block isolate">
+          <div className="relative inline-block isolate mt-14 md:mt-0">
             {/* Green half-circle (dome shape) top-left */}
             <div className="absolute -top-7 -left-3 w-16 h-8 bg-[#2FC79E] rounded-t-full -z-10" />
             <span className="absolute -top-10 left-12 size-3 bg-[#38BDF8] rounded-full -z-10" />

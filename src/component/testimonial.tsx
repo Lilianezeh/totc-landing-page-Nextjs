@@ -28,13 +28,13 @@ const Testimonial = () => {
         </button>
       </div>
 
-      <div className="relative pb-16 md:pb-0">
-        <div className="relative w-full h-64 sm:h-80 rounded-2xl overflow-hidden">
+      <div className="relative pb-20 md:pb-4">
+        <div className="relative w-full h-64 sm:h-80 rounded-2xl overflow-hidden mt-6 md:mt-8">
           <Image
-            src="/images/students.png"
+            src="/images/testimonial.png"
             alt="Happy student"
             fill
-            className="object-cover"
+            className="object-cover rounded-[3rem]"
           />
         </div>
 
